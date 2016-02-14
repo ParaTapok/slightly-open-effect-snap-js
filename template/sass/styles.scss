@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import "reset";
+@import "compass/css3";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+$FONT_FAMILY: "Segoe UI", Arial, Helvetica, sans-serif;
+
+.b-page {
+    &__max {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    &__content {
+
+    }
+}
+
+%clearfix {
+    &:before {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+        content: "";
+        display: block;
+        height: 0;
+    }
+}
+
+@import "blocks/window";

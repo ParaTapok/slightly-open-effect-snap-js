@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, center,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: #2980b9;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.b-page__max {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.b-video-over__wrap:before {
+  content: "";
+  display: table;
+}
+.b-video-over__wrap:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+}
+
+.b-video-over {
+  padding: 70px 0 70px 0;
+}
+.b-video-over__head {
+  margin: 0;
+  font-size: 32px;
+  padding: 0;
+}
+.b-video-over__wrap {
+  background: #fff;
+  -moz-box-shadow: 0 65px 117px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 0 65px 117px rgba(0, 0, 0, 0.29);
+  box-shadow: 0 65px 117px rgba(0, 0, 0, 0.29);
+  margin: 0;
+}
+.b-video-over__media {
+  overflow: hidden;
+  position: relative;
+  width: 651px;
+  height: 427px;
+  float: left;
+}
+.b-video-over__media img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -1px;
+}
+.b-video-over__media-tap {
+  display: block;
+  width: 50px;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 40;
+}
+.b-video-over__media .paper-1,
+.b-video-over__media .paper-2 {
+  display: block;
+  width: 651px;
+  height: 427px;
+}
+.b-video-over__media-snap-1, .b-video-over__media-snap-2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 60;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.b-video-over__media-snap-2 {
+  z-index: 50;
+}
+.b-video-over__media-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 70;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  background: url(../img/px.gif) repeat 0 0;
+}
+.b-video-over__desc {
+  padding-top: 34px;
+  margin: 0 40px 0 670px;
+}
+.b-video-over__desc-in {
+  min-height: 280px;
+  max-height: 315px;
+  overflow: hidden;
+  position: relative;
+}
+.b-video-over__desc-in:after {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(1, white));
+  background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  background-image: -ms-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  height: 20px;
+  width: 100%;
+}
+.b-video-over__desc-title {
+  font-size: 30px;
+  line-height: normal;
+  margin: 0 0 34px 0;
+  padding: 0;
+}
+.b-video-over__desc-text {
+  font-size: 18px;
+  line-height: 23px;
+}
+.b-video-over__desc-text p {
+  margin: 0;
+  padding: 0;
+}
+.b-video-over__desc-more {
+  padding: 20px 0 0 0;
+  font-size: 18px;
+  line-height: normal;
+}
